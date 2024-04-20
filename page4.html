@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Week-3-Bootstrap</title>
+</head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-sm navbar-color">
+            <div class="container-fluid">
+                <a class="navbar-brand navbar-brand-color" 
+                    href="index.html">Greater Grand Forks</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="page2.html">Activities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="page3.html">Entertainment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="page4.html">Feedback</a>
+                        </li>
+                        <div class="nav-item dropdown">
+                            <button class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" 
+                                aria-haspopup="true" aria-expanded="false">
+                                More About the City
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="https://und.edu/" target="_blank">University of North Dakota</a></li>
+                                <li><a class="dropdown-item" href="https://www.empireartscenter.com/" target="_blank">Empire Arts Center</a></li>
+                                <li><a class="dropdown-item" href="http://www.greenwayggf.com/uploads/2/0/1/8/20183519/greenway_map_-_may_2023.pdf" target="_blank">The Greenway Trail</a></li>
+                                <li><a class="dropdown-item" href="https://northernairactionpark.com/" target="_blank">Northern Air Action Park</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="feedback">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="row">
+                            <h4>We'd love to know where you are visiting from!</h4>
+                            <br><br><br>
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                            </div>
+                            <br><br><br>
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                            </div>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" placeholder="City" aria-label="City">
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="text" class="form-control" placeholder="State" aria-label="State">
+                            </div>
+                            <div class="col-sm-2">
+                                <input type="text" class="form-control" placeholder="Zip" aria-label="Zip">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4 class="comment">Please tell us about your visit to our city. We would love to hear about all the fun you had, the things you 
+                        got to experience, and your favorite activities you filled your time with during your stay. We sure do hope we get to see you again soon!<h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 300px"></textarea>
+                            <label for="floatingTextarea2">Feel free to leave any additional comments here.</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <input type="submit" class="btn btn-outline-success btn-lg" value="Submit"></input>
+
+        </main>
+
+        
+
+        <footer>
+            <p>Ethan Hendricks - Week 3 Assignment<p>
+        </footer>
+
+
+
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    </body>
+</html>

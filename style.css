@@ -1,0 +1,133 @@
+/*--Elements--*/
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+header {
+    height: 90vh;
+    background-image: url("Images/Sorlie Bridge.jpg");
+    background-size: cover;
+    color: rgb(19, 95, 23);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    text-shadow: black 2px 2px;
+}
+
+main {
+    min-height: 100vh;
+    background-color: rgb(200, 211, 181);
+    padding: 40px;
+}
+
+section {
+    padding: 20px 0px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+h5 {
+    text-align: center;
+}
+
+h4 {
+    color: rgb(19, 95, 23);
+}
+
+footer {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(188, 218, 134);
+    color: rgb(19, 95, 23);
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+
+
+/*--Classes--*/
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.navbar-brand-color {
+    color:rgb(19, 95, 23);
+}
+
+.navbar-color {
+    background-color: rgb(188, 218, 134);
+}
+
+.link-dropdown {
+    background-color: rgb(188, 218, 134);
+    border: solid rgb(19, 95, 23) 1px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    margin: 40px 50px;
+}
+
+.link-golf {
+    background-color: rgb(188, 218, 134);
+    border: solid rgb(19, 95, 23) 1px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    margin: 40px 100px;
+}
+
+.link-food {
+    background-color: rgb(188, 218, 134);
+    border: solid rgb(19, 95, 23) 1px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    margin: 40px 40px;
+}
+
+.image-size {
+    height: auto;
+    width: 90%;
+}
+
+.table-border {
+    border: solid rgb(200, 211, 181);
+}
+
+.col-golf {
+    padding-top: 30px;
+}
+
+.entertainment {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(19, 95, 23);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.p-ent {
+    padding-top: 20px;
+}
+
+.feedback {
+    min-height: 50vh;
+    background-color: rgb(200, 211, 181);
+    padding: 40px;
+}
+
+.comment {
+    padding: 40px 40px 0px 40px;
+}
