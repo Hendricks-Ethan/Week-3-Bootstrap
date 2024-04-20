@@ -1,3 +1,5 @@
+/*--External css stylesheet in tandum with bootstrap to fine tune the content in my project--*/
+
 /*--Elements--*/
 /*----------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -130,4 +132,8 @@ footer {
 
 .comment {
     padding: 40px 40px 0px 40px;
+}
+
+.feedback-page {
+    background-color: rgb(200, 211, 181);
 }
